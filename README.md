@@ -6,7 +6,7 @@ This API processes Icelandic Social Security Numbers (kennitala) and retrieves u
 
 - **Icelandic SSN Validation**: Validates kennitala format and date components
 - **External API Integration**: Retrieves switch and port numbers from external systems
-- **Monitoring Data Query**: Queries monitor01.gagnaveita.is for usage statistics
+- **Monitoring Data Query**: Queries api for usage statistics
 - **RESTful API**: Built with FastAPI for modern, async performance
 
 ## Setup
