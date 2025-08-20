@@ -68,7 +68,7 @@ async def get_usage_data(request: SSNRequest):
     This endpoint:
     1. Validates the Icelandic SSN
     2. Calls an external API to get switch and port numbers
-    3. Queries monitor01.gagnaveita.is for usage data
+    3. Queries api for usage data
     """
     try:
         # Step 1: Get switch and port numbers from external API
