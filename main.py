@@ -124,7 +124,7 @@ async def get_switch_port_data(kennitala: str) -> dict:
 
 async def get_monitoring_data(switch_number: str, port_number: str) -> dict:
     """
-    Query monitor01.gagnaveita.is:9090/api/v1/query_range for usage data.
+    Query query_Range for usage data.
     """
     try:
         # Calculate time range (last 24 hours)
