@@ -148,7 +148,7 @@ async def get_monitoring_data(switch_number: str, port_number: str) -> dict:
         
         async with httpx.AsyncClient(timeout=30.0) as client:
             response = await client.get(
-                'http://monitor01.gagnaveita.is:9090/api/v1/query_range',
+                query_range',
                 params=params
             )
             
